@@ -1,0 +1,27 @@
+body{
+    background-image: url(images.jpg);
+}
+:root{
+  --base: #ffc600;
+  --spacing: 20px;
+  --blur: 0px;
+}
+
+img{
+    margin-top: 50%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter:blur(var(--blur));
+
+}
+h1{
+    color:var(--base);
+    font-size: 50px;
+    font-family: 'Eczar', serif;
+    text-transform: lowercase;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
