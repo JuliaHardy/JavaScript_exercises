@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+.panels{
+    display:flex;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.panel {
+    box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+    color:white;
+    text-align: center;
+    align-items:center;
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+    font-size: 50px;
+    background-size:cover;
+    background-position:center;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+
+/*Flex items*/
+
+.panel > *{
+    margin:0;
+    width:100%;
+    transition: transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel > *:first-child{transform: translateY(-100%);}
+.panel.open-active > *:first-child{transform: translateY(0);}
+.panel > *:last-child{transform: translateY(100%);}
+.panel.open-active >*:last-child{transform: translateY(0);}
+
+.panel.open{
+    flex:5;
+    font-size: 70px;
+}
+
+.panel1{
+    background-image: url(images.jpg);
+}
+
+.panel2{
+    background-image: url(images1.jpg);
+}
+
+.panel3{
+    background-image: url(HTB1_h_0GVXXXXasaXXXq6xXFXXXs.jpg);
+}
+
+.panel4{
+    background-image: url(images2.jpg);
+}
+
+.panel5{
+    background-image: url(images3.jpg);
+}
