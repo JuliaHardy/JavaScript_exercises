@@ -10,6 +10,7 @@
 - [here](https://cat26.github.io/JavaScript_exercises/Day5/flex_panels.html)
 - [ ] **Type Ahead/Day6**
 - [ ] **Array Cardio Day 2/Day7**
-- [ ] **Fun with HTML5 Canvas/Day8**
+- [x] **Fun with HTML5 Canvas/Day8**
+- [here](https://cat26.github.io/JavaScript_exercises/Day8/canvas.html)
 - [ ] **Dev Tools Domination/Day9**
 - [ ] **Hold Shift and Check Checkboxes/Day10**
