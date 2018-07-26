@@ -13,4 +13,10 @@
 - [x] **Fun with HTML5 Canvas/Day8**
 - [here](https://cat26.github.io/JavaScript_exercises/Day8/canvas.html)
 - [ ] **Dev Tools Domination/Day9**
-- [ ] **Hold Shift and Check Checkboxes/Day10**
+- [x] **Hold Shift and Check Checkboxes/Day10**
+- [here](https://cat26.github.io/JavaScript_exercises/Day10/shift.html)
+- [ ] **Custom Video Player/Day11**
+- [ ] **Key Sequence Detection/Day12**
+- [ ] **Slide in on Scroll/Day13**
+- [ ] **avaScript References VS Copying/Day14**
+- [ ] **LocalStorage/Day15**
