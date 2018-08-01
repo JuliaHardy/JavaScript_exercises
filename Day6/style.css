@@ -1,0 +1,46 @@
+body{
+    background-color: #267475;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+input {
+      padding:20px;
+}
+
+.search-form{
+    max-width: 400px;
+}
+
+input.search{
+    border: 5px solid #e09f9f;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+.suggestions {
+    margin 0;
+    padding 0;
+    position: relative;
+}
+
+.suggestions li{
+    list-style: none;
+    border-bottom: 2px solid #a95a5a;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1{
+    background: #63515f;
+}
+
+.suggestions li:nth-child(even) {
+      transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+    }
+    .suggestions li:nth-child(odd) {
+      transform: perspective(100px) rotateX(-3deg) translateY(3px);
+    }
