@@ -8,7 +8,8 @@
 - [x] **Array Cardio Day 1/Day4**
 - [x] **Flex Panel Gallery/Day5**
 - [here](https://cat26.github.io/JavaScript_exercises/Day5/flex_panels.html)
-- [ ] **Type Ahead/Day6**
+- [x] **Type Ahead/Day6**
+- [here](https://cat26.github.io/JavaScript_exercises/Day6/ajax_type_ahead.html)
 - [ ] **Array Cardio Day 2/Day7**
 - [x] **Fun with HTML5 Canvas/Day8**
 - [here](https://cat26.github.io/JavaScript_exercises/Day8/canvas.html)
