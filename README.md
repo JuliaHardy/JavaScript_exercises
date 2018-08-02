@@ -10,10 +10,10 @@
 - [here](https://cat26.github.io/JavaScript_exercises/Day5/flex_panels.html)
 - [x] **Type Ahead/Day6**
 - [here](https://cat26.github.io/JavaScript_exercises/Day6/ajax_type_ahead.html)
-- [ ] **Array Cardio Day 2/Day7**
+- [x] **Array Cardio Day 2/Day7**
 - [x] **Fun with HTML5 Canvas/Day8**
 - [here](https://cat26.github.io/JavaScript_exercises/Day8/canvas.html)
-- [ ] **Dev Tools Domination/Day9**
+- [x] **Dev Tools Domination/Day9**
 - [x] **Hold Shift and Check Checkboxes/Day10**
 - [here](https://cat26.github.io/JavaScript_exercises/Day10/shift.html)
 - [ ] **Custom Video Player/Day11**
@@ -21,3 +21,18 @@
 - [ ] **Slide in on Scroll/Day13**
 - [ ] **avaScript References VS Copying/Day14**
 - [ ] **LocalStorage/Day15**
+- [ ] **Mouse Move Shadow/Day16**
+- [ ] **Sort Without Articles/Day17**
+- [ ] **Adding Up Times with Reduce/Day18**
+- [ ] **Webcam Fun/Day19**
+- [ ] **peech Detection/Day20**
+- [ ] **Geolocation/Day21**
+- [ ] **MoFollow Along Link Highlighter/Day22**
+- [ ] **Speech Synthesis/Day23**
+- [ ] **Sticky Nav/Day24**
+- [ ] **Event Capture, Propagation, Bubbling and Once/Day25**
+- [ ] **Stripe Follow Along Nav/Day26**
+- [ ] **Click and Drag/Day27**
+- [ ] **Video Speed Controller/Day28**
+- [ ] **Countdown Timer/Day29**
+- [ ] **Whack A Mole/Day30**
