@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tools</title>
+    </head>
+    <body>
+        <p onClick="makeGreen()" style='text-align: center; margin-top: 20%;'>Click!</p>
+        <script>
+            function makeGreen() {
+                const p = document.querySelector('p');
+                p.style.color = '#BADA55';
+                p.style.fontSize = '50px';
+            };
+            
+            console.log('hi');
+            console.log('hello I am a %s string!', 'woo');
+            console.log("%c It's awesome", 'font-size:50px;background: red');
+            
+            console.warn('warning!');
+            console.error('something is wrong');
+            console.info("It's to late to save the world");
+            
+            const p = document.querySelector('p');
+            console.assert(p.classList.contains('now'), 'No it not');//only false
+            
+            console.clear();
+            console.log(p);
+            console.dir(p);
+            
+            const pupils =[
+                {kind: 'dog', name: 'stefan'},
+                {kind: 'cat', name: 'puszek'},
+                {kind: 'snake', name: 'Lucy'}
+            ];
+            
+            pupils.forEach(animal =>{
+                console.groupCollapsed(`${animal.name}`);
+                console.log(`This is ${animal.name}`);
+                console.log(`${animal.name} is a ${animal.kind}`);
+                console.groupEnd(`${animal.name}`);
+            });
+            console.count('elo');
+            console.count('one');
+            console.count('one');
+            console.count('one');
+            console.count('elo');
+            console.count('one');
+            console.count('elo');
+            console.count('elo');
+            console.count('elo');
+            
+                       
+        </script>
+    </body>
+</html>
