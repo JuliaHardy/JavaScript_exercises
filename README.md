@@ -17,7 +17,7 @@
 - [x] **Hold Shift and Check Checkboxes/Day10**
 - [here](https://cat26.github.io/JavaScript_exercises/Day10/shift.html)
 - [x] **Custom Video Player/Day11**
-- [here](https://cat26.github.io/JavaScript_exercises/Day10/video_player.html)
+- [here](https://cat26.github.io/JavaScript_exercises/Day11/index.html)
 - [ ] **Key Sequence Detection/Day12**
 - [ ] **Slide in on Scroll/Day13**
 - [ ] **avaScript References VS Copying/Day14**
