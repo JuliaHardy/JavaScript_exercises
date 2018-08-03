@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+/*    The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color:  #673333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+h1{
+    margin: 5%;
+}
+
+.player{
+    max-width: 750px;
+    border: 6px solid #803131;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 6px 8px 12px 2px;
+}
+
+.player:fullscreen{
+    max-width: none;
+    width: 100%;
+}
+
+.player__button{
+    background: none;
+    border: 0;
+    line-height: 1;
+    color:white;
+    text-align: center;
+    outline: 0;
+/*    An outline is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".*/
+    padding: 0;
+    cursor: pointer;
+    max-width: 50px;
+    
+}
+
+.player__button:focus {
+  border-color: #ffc600;
+}
+
+.player__slider {
+  width:10px;
+  height:30px;
+}
+
+.player__controls {
+  display:flex;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  transform: translateY(100%) translateY(-5px);
+  transition:all .3s;
+  flex-wrap:wrap;
+  background:rgba(0,0,0,0.1);
+}
+
+.player:hover .player__controls{
+/*  hover:Select and style a link when you mouse over it*/
+  transform: translateY(0);
+}
+
+.player:hover .progress {
+  height:15px;
+}
+
+.player__controls > * {
+  flex:1;
+}
+
+.progress{
+    flex: 10;
+    display: flex;
+    flex-basis: 100%;
+    position: relative;
+    cursor:ew-resize;
+    background:rgba(0,0,0,0.5);
+}
+
+.progress__filled{
+    width:  50%;
+    background: #a7948d;
+    flex: 0;
+    flex-basis: 50%;
+}
