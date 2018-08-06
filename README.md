@@ -18,8 +18,9 @@
 - [here](https://cat26.github.io/JavaScript_exercises/Day10/shift.html)
 - [x] **Custom Video Player/Day11**
 - [here](https://cat26.github.io/JavaScript_exercises/Day11/index.html)
-- [ ] **Key Sequence Detection/Day12**
-- [ ] **Slide in on Scroll/Day13**
+- [x] **Key Sequence Detection/Day12**
+- [x] **Slide in on Scroll/Day13**
+- [here](https://cat26.github.io/JavaScript_exercises/Day13/slide.html)
 - [ ] **avaScript References VS Copying/Day14**
 - [ ] **LocalStorage/Day15**
 - [ ] **Mouse Move Shadow/Day16**
