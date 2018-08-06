@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html{
+    box-sizing: border-box;
+    background-color: #54261f;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 50px;
+    margin-top: 0;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.site-wrap{
+    background-color: #efe9e1;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 40px;
+    text-align: justify;
+}
+.align-left{
+    float: left;
+    margin-right: 15px;
+}
+
+.align-right{
+    float: right;
+    margin-left: 15px;
+}
+
+p{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.slide-in{
+    opacity:0;
+    transition:all .3s;
+    }
+
+.align-left.slide-in{
+    transform:translateX(-30%) scale(0.95);
+    }
+
+.align-right.slide-in{
+    transform:translateX(30%) scale(0.95);
+    }
+
+.slide-in.active{
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}
