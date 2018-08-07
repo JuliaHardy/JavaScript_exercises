@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html{
+    box-sizing: border-box;
+    background: url(background.jpg);
+    text-align: center;
+/*    font-family: 'Ruslan Display', cursive;*/
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+
+}
+
+*, *:before, *:after{box-sizing: inherit;}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    width:300px; 
+    margin: 100px;
+}
+
+.wrapper{
+    padding: 20px;
+    max-width: 400px;
+    background: rgba(234, 210, 210, 0.6);
+    box-shadow: 15px 18px 7px 19px rgba(0, 0, 0, 0.39);
+}
+
+h2{
+    font-size: 45px;
+}
+
+
+.plates{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.plates li{
+    display: flex;
+    border-bottom: 5px solid rgba(0,0,0,0.2);
+    padding: 10px 0;
+}
+
+.plates label{
+    flex:1;
+    cursor: pointer;
+}
+
+.plates input {
+    display: none;
+}
+
+.plates input + label:before {
+    content: '⬜️';
+    margin-right: 10px;
+}
+
+.plates input:checked + label:before {
+    content: '🍎';
+}
+
+.add-items {
+    margin-top: 20px;
+}
+
+.add-items input {
+    padding:10px;
+    outline:0;
+    border: 2px solid rgba(0,0,0,0.1);
+    background: #0769409e;
+    color:black;
+    font-weight: bold;
+}
+
+::placeholder{
+    color:black;
+    font-weight: bold;
+}
+
+
+
