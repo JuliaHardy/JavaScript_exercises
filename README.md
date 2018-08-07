@@ -21,8 +21,9 @@
 - [x] **Key Sequence Detection/Day12**
 - [x] **Slide in on Scroll/Day13**
 - [here](https://cat26.github.io/JavaScript_exercises/Day13/slide.html)
-- [ ] **avaScript References VS Copying/Day14**
-- [ ] **LocalStorage/Day15**
+- [x] **avaScript References VS Copying/Day14**
+- [x] **LocalStorage/Day15**
+- [here](https://cat26.github.io/JavaScript_exercises/Day15/index.html)
 - [ ] **Mouse Move Shadow/Day16**
 - [ ] **Sort Without Articles/Day17**
 - [ ] **Adding Up Times with Reduce/Day18**
