@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Object and Arrays</title>
+    </head>
+    <body>
+        <script>
+            const players =['Julia', 'Michal', 'Ewa', 'Natalia', 'Kuba'];
+           // 1. Arrays :
+            
+            const team = players;
+            
+//            console.log(players);
+//            console.log(team);
+//            
+            team[4] = 'Kristof';
+//            console.log(players);
+//            console.log(team);
+            
+//            console.log(players.slice(2,3))
+//            console.log(players);
+            
+            const team2 = players.slice();
+//            console.log(team2);
+            
+            const team3 = [].concat(players);
+//            console.log(team3);
+            
+            const team4 = [...players];
+            team4[2] = 'helooo';
+//            console.log(team4);
+//            console.log(players);
+            
+            const team5 = Array.from(players);
+            team5[0] = 'monkey';
+//            console.log(team5);
+//            console.log(players);
+            
+        // 2. Objects :
+            //reference
+            const person = {
+                name: 'Wes Bos',
+                age: 80
+            };
+            
+            const captain = person;
+            captain.number = 99;
+//            console.log(person);
+            // Copy
+            const cap2 = Object.assign({}, person, {number: 70 , age: 12});
+            
+//            console.log(person);
+//            console.log(cap2);
+            
+            const cap3 ={...person};
+            
+            const wes ={
+                name: 'Wes',
+                age: 100,
+                social: {
+                    twitter: '@wesbos',
+                    facebook: 'wesbos.developer'
+                }
+            };
+            
+            const dev = Object.assign({}, wes);
+            dev.name = 'Wesley';
+//            console.log(dev);
+//            console.log(wes);
+            
+            dev.social.twitter = '@awesome';
+//            console.log(dev);
+//            console.log(wes);
+            
+            const dev2 = JSON.parse(JSON.stringify(wes));
+            // deeper copy
+            dev2.social.twitter = '@lalala';
+            console.log(dev2);
+            console.log(wes);
+            
+            
+        </script>
+    </body>
+</html>
