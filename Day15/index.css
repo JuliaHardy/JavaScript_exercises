@@ -5,7 +5,7 @@
 html{
     box-sizing: border-box;
     background: url(background.jpg);
-    text-align: center;
+/*    text-align: center;*/
 /*    font-family: 'Ruslan Display', cursive;*/
     font-family: 'Pacifico', cursive;
     font-size: 30px;
@@ -69,22 +69,47 @@ h2{
     content: '🍎';
 }
 
+.plates button{
+    border: 2px solid rgba(0,0,0,0.1);
+    background: #0769409e;
+    cursor: pointer;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .add-items {
     margin-top: 20px;
 }
 
-.add-items input {
+.add-items input, .select-items button {
     padding:10px;
     outline:0;
     border: 2px solid rgba(0,0,0,0.1);
     background: #0769409e;
     color:black;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.add-items input{
+/*    background: #5f0a1a9e;*/
+    height: 50px;
+    
 }
 
 ::placeholder{
     color:black;
     font-weight: bold;
+}
+
+#delete{
+    margin-top: 15px;
+    float: right;
+}
+
+.select-items{
+    display: none;
 }
 
 
