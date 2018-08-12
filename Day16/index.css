@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+
+body{
+    background-color: coral;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 70px;
+}

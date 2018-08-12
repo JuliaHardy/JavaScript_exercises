@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>mouse move effect</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="halloween">
+            <h1 contenteditable>Happy halloween 🎃</h1>
+        </div>
+        <script>
+            const halloween = document.querySelector('.halloween');
+            const text = halloween.querySelector('h1');
+            const walk = 25;
+            
+            function effects(e){
+                const {offsetWidth: width, offsetHeight: height} = halloween;
+                let {offsetX: x, offsetY: y} = e;
+                
+                if(this !== e.target){
+                    x = x + e.target.offsetLeft;
+                    y = y + e.target.offsetTop;    }
+
+                const xWalk = Math.round((x/ width * walk) - (walk/2));
+                const yWalk = Math.round((y/ height * walk) - (walk/2));
+                
+                text.style.textShadow = `${xWalk}px ${yWalk}px 0 red`;
+            }
+            
+            halloween.addEventListener('mousemove', effects)
+        </script>
+    </body>
+
+</html>
