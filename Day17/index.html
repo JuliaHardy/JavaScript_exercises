@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Sorting</title>
+    </head>
+    <body>
+        <ul id="bands"></ul>
+        <script>
+            const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
+            
+        
+        function remove_articles(band){
+            const patern = /^(the |an |a )/i;
+            return band.replace(patern, '').trim();
+        }
+            
+        const sorted_bands = bands.sort((bandA, bandB) => remove_articles(bandA) > remove_articles(bandB) ? 1 : -1);
+            
+        document.querySelector('#bands').innerHTML = sorted_bands
+            .map(band => `<li>${band}</li>`)
+            .join('');
+
+        </script>
+    </body>
+</html>
