@@ -24,8 +24,9 @@
 - [x] **avaScript References VS Copying/Day14**
 - [x] **LocalStorage/Day15**
 - [here](https://cat26.github.io/JavaScript_exercises/Day15/index.html)
-- [ ] **Mouse Move Shadow/Day16**
-- [ ] **Sort Without Articles/Day17**
+- [x] **Mouse Move Shadow/Day16**
+- [here](https://cat26.github.io/JavaScript_exercises/Day16/shadow.html)
+- [x] **Sort Without Articles/Day17**
 - [ ] **Adding Up Times with Reduce/Day18**
 - [ ] **Webcam Fun/Day19**
 - [ ] **peech Detection/Day20**
