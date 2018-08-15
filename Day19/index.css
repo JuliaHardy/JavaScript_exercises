@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+html{
+    background-color: #a765925c;
+    font-family: 'Jua', sans-serif;
+}
+
+.controls{   
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    
+}
+
+button{
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+    background: #ff00a5;
+}
+.rgb{
+/*    background: white;*/
+    margin-left: 30px;
+}
+.player{
+    position:absolute;
+    top:20px;
+    right: 20px;
+    width:200px;    
+}
+
+.photo{
+    width: 100%;
+    float: left;
+}
+
+.strip img{
+    width:100px;
+    overflow-x: scroll;
+    padding: 1rem 1rem 1rem 0rem;
+}
+.photobooth{
+    margin: 30px;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
