@@ -27,8 +27,8 @@
 - [x] **Mouse Move Shadow/Day16**
 - [here](https://cat26.github.io/JavaScript_exercises/Day16/shadow.html)
 - [x] **Sort Without Articles/Day17**
-- [ ] **Adding Up Times with Reduce/Day18**
-- [ ] **Webcam Fun/Day19**
+- [x] **Adding Up Times with Reduce/Day18**
+- [x] **Webcam Fun/Day19**
 - [ ] **peech Detection/Day20**
 - [ ] **Geolocation/Day21**
 - [ ] **MoFollow Along Link Highlighter/Day22**
