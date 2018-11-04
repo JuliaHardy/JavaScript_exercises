@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-
-html{
+body{
     background: black;
 }
-
 h1{
     color: white;
     text-align: center;
@@ -22,4 +20,9 @@ p{
     font-family: 'Indie Flower', cursive;
     margin-left: 20px;
     font-weight: bold;
+}
+
+.intro{
+    background: white;
+    margin-top: 30%;
 }

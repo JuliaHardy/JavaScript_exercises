@@ -3,12 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Speech rcongnition</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Speech Detection:</h1>
-        <div class="words" contenteditable></div>
-        <audio class="music" src=http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3></audio>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="intro">
+                        <h2>Short guide:</h2>
+                        <ol>
+                            <li>Say something you want to save</li>
+                            <li>Say "listenn music" to play music</li>
+                            <li>Say "stop music" to stop playing music</li>
+                            <li>Say "red", "pink" or "green" to change bacground color</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <h1>Speech Detection:</h1>
+                    <div class="words" contenteditable></div>
+                    <audio class="music" src=http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3></audio>
+                </div>
+            </div>
+        </div>
+    </body>
         <script>
             const music = document.querySelector('.music');
             
@@ -62,7 +81,8 @@
             recognition.addEventListener('end', recognition.start);
             
             recognition.start();
-            
+           
         </script>
-    </body>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   
 </html>
