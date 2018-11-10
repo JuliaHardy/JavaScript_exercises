@@ -1,17 +1,17 @@
 {
-  "name": "detection",
+  "name": "day20",
   "version": "1.0.0",
   "description": "",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "scripts.js",
+  "dependencies": {
+    "node-static": "^0.7.11"
   },
-  "author": "JuliaHardy",
-  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.5 <2.23.2"
   },
-  "engines": {
-    "node": "9.8.0"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
