@@ -1,14 +1,17 @@
 {
-  "name": "gum",
+  "name": "detection",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "web.js",
   "scripts": {
-    "start": "server.js" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "JuliaHardy",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.5 <2.23.2"
+  },
+  "engines": {
+    "node": "9.8.0"
   }
 }
