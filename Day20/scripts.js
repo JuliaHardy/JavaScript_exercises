@@ -26,6 +26,7 @@ recognition.addEventListener('result', e =>{
     }
     if(transcript.includes('listen music')){
         music.currentTime = 0;
+        music.removeAttribute("muted")
         music.play();
     }
     if(transcript.includes('stop music')){
